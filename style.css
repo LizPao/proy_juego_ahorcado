@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+    background-repeat: no-repeat;
+   
+}
+body{
+    background-image: url('./fondo2.jpg');
+    background-position:unset;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor{
+    width: 852px;/*ancho*/
+    height: 502px;/*alto*/
+    position: absolute;
+    inset: 0; /*pone a 0 todos los margenes*/
+    margin: auto; /*centra el contenedor*/
+    position: fixed;
+    box-shadow: 2px 4px 8px 5px rgb(114, 15, 114);
+    background-color: rgba(248, 120, 248, 0.5); 
+    border-radius: 15px; 
+}
+
+h1{ 
+    color: #17020e;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;/*negrita*/
+    letter-spacing: 2px;
+    font-size: 60px;
+    
+}
+h2{
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    color: #16020e;
+    display: none;
+    font-size: 90px;
+    letter-spacing: 4px;
+}
+.pista_letra{
+    font-size: 25px;
+    margin: 35px 15px;
+    padding: 5px;
+    color: #230316;
+    text-align: left;
+}
+
+input{
+    background-color: rgb(254, 254, 254);
+    padding: 7px;
+    border: none; /*no quiero vorde*/
+    width: 23%;
+    margin: 15px 20px 25px 20px;
+    float: left;
+    font-size: 22px;
+    color: #670940;  
+    border-radius: 15px;
+}
+button{
+    margin: 15px 10px 5px 1px;
+    padding: 12px;
+    font-weight: bold;/*negrita*/
+    text-transform: uppercase; /*mayuscula*/
+    background-color: #580134;
+    color: white;
+    letter-spacing: 1.5px;
+    border: none;
+    float: left;
+    display: block;
+    border-radius: 15px;
+
+}
+button:active {
+    transform: scale(0.95);
+}
+.add_guion{
+    margin: 67px 20px;
+    padding: 10px;
+    color: #13020b;
+    position: fixed;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#id_ahorcado{
+    background-image: url('./img_ahorcado.gif');
+    width: 297px;
+    height: 224px;
+    float: right;
+    margin: 0px 20px;
+    background-color: rgb(240, 248, 255,.6);
+    border-radius: 10px;
+ }
+#sugerencia{
+    color: rgb(234, 250, 0);
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none;
+    position: fixed;
+    top: 46%;
+    left: 20%;
+}
+
+#ganador{
+    background-image: url('./ganador.gif');
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    position: fixed;
+    display: none;
+    top: 35%;
+    left: 40%;   
+}
+
+#perdedor{
+    background-image: url('./si_pierde.gif');
+    width: 220px;
+    height: 165px;
+    align-items: center;
+    position: fixed;
+    display: none;
+    top: 45%;
+    left: 40%; 
+}
